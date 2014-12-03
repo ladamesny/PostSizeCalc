@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/calcjs.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="import" href="components/paper-elements/paper-elements.html">
+  <title></title>
+</head>
+<body>
+<h1 align="center">Position Size Calculator</h1>
+    <section id = "account-summary">
+      <table>
+        <tr>
+          <td class="first_column">
+            <label for="account-value" >Account Value</label>
+          </td>
+          <td>
+            <input type="text" id="account-value" placeholder="Enter $" class="inputs" value="$">
+          </td>
+        </tr>
+        <tr>
+          <td class="first_column">
+            <label for="account-risk-ratio" >Percentage Willing to Risk</label>
+          </td>
+          <td>
+            <input type="text" id="account-risk-ratio" placeholder="Enter %" class="inputs" value="%">
+          </td>
+        </tr>
+        <tr>
+          <td class="first_column">
+            <label for="entry-price" >Entry Price</label>
+          </td>
+          <td>
+            <input type="text" id="entry-price" placeholder="Enter $" class="inputs" value="$">
+          </td>
+        </tr>
+        <tr>
+          <td class="first_column">
+            <label for="initial-protective-stop" >Initial Protective Stop</label>
+          </td>
+          <td>
+            <input type="text" id="initial-protective-stop" placeholder="Press Enter" class="summary_inputs" value="$">
+          </td>
+        </tr>
+        <tr class= "output"><td class="first_column"></td><td><button id="compute">Compute</button></td></tr>
+        
+        <!-- Output for this section -->
+        <tr class= "output">
+          <td class="first_column">
+            <p>$ Risked/Share</p>
+          </td>
+          <td>
+            <p id="risked-share" class="summary_values"></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="first_column">
+            <p>% Risked/Pos</p>
+          </td>
+          <td>
+            <p id ="risked-position-per" class="summary_values"></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="first_column">
+            <p>Max Acceptable Risk</p>
+          </td>
+          <td>
+            <p id="max-risk" class="summary_values"></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="first_column">
+            <p>$ Risked/Pos</p>
+          </td>
+          <td>
+            <p id="risked-position-dol" class="summary_values"></p>
+          </td>
+        </tr>
+
+    </section>
+</body>
+</html>

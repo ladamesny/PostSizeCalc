@@ -1,0 +1,47 @@
+body, section, header, img, p, ul, li, ol, table{
+  margin:0;
+  padding: 0;
+  border:none;
+}
+
+header{
+  background-color: #52a9ca;
+  padding: 20px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+section{
+  margin: 25px; 
+}
+
+input{
+  width:100px;
+}
+
+input{
+  background-color: #aaaaaa;
+  text-align: left;
+}
+
+input:focus{
+  background-color: white;
+}
+
+tr.output > td{
+  padding-top: 20px;
+}
+
+#compute{
+  cursor: pointer;
+  background-color: blue;
+  color:white;
+}
+
+.first_column{
+  padding-right: 80px;
+}
+
+.summary_values{
+  text-align: right;
+}

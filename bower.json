@@ -1,0 +1,9 @@
+{
+  "name": "Position Size Calculator",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.1"
+  }
+}
